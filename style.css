@@ -1,0 +1,112 @@
+body
+{
+    *{
+     font-family: poppins;
+     padding:0;
+    }
+    .logo{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 2em;
+       position: relative;top:10px;
+       position: relative;left:10%;
+       text-align: center; 
+
+    }
+    .logo:hover {
+        color: white;
+        
+    }
+    .ss{
+        margin-top: -1%;
+        margin-left: -1%;
+        margin-right: -1%;
+        background-size: 40%;
+        background-color: orange;
+    }
+    .navigator a {
+        display: inline;
+        position: relative ;top:-25px;
+        position: relative;left: 53%;
+       
+        text-decoration: none;
+        color: black;
+        font-weight: 200;
+        font-size: 1.5em;
+        padding: 10px;
+        border-radius: 5px;
+        }
+  
+    
+    .navigator a:hover {
+        background-color: white;
+        
+    }
+    #content {
+        position: relative;
+    }
+    #content img {
+        position: relative;top:-10%;
+        position: absolute;
+        right:-1%;
+        width:650 ;
+        height: 650;
+    } 
+    ul {
+        margin-left: 10%;
+        list-style-type: none;
+    }
+    ul.SM-list img{
+       
+        padding: 5px;
+        border-radius: 5px;
+        height: 30px;
+        width: 30px;
+        float: left;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 10em;
+        font-weight: 800;
+        margin-top: 25%;
+        padding-top: 40px;
+        background-color: orange;
+    }
+    table {
+        font-weight: 700;
+        color: black;
+        background-color: orange;
+       margin-left: 25%;
+       margin-top: 5%;
+        border-collapse: collapse;
+        
+        
+    }
+    td {
+        padding: 100px;
+        
+        border: 0;
+        
+        border: 3px solid white;
+        
+    }
+    .Address{
+        text-align:  center;
+      
+    }
+    .lo{
+        text-decoration: none;
+        
+        color: black;
+    }
+    .lo:hover{
+        background-color: orange;
+    }
+    .pp{font-size:medium ;background-color:orange; display:inline-block; ;color:black ;}
+
+
+
+}
